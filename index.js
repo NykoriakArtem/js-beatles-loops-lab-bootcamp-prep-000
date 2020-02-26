@@ -13,6 +13,7 @@ function johnLennonFacts(facts){
   let i = 0;
   while (i < things.length){
     things.push(`${facts}!!!`);
+    i++
   }
   return things
 }
