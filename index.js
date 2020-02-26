@@ -11,5 +11,5 @@ function johnLennonFacts(facts){
   const things = [];
   
   let i = 0;
-  while
+  while (i < things.length)
 }
