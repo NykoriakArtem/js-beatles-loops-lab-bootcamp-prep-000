@@ -1,11 +1,11 @@
-function theBeatlesPlay(musicians, instrument){
+function theBeatlesPlay(musicians, instruments){
   const arr = [];
   
   for(let i=0; i < musicians.length; i++){
     if (i === 1){
-      arr.push(`${musicians[i]} plays ${instrument}.`)
+      arr.push(`${musicians[i]} plays ${instruments}.`)
     }else{
-      arr.push(`${musicians[i]} plays ${instrument}.`)
+      arr.push(`${musicians[i]} plays ${instruments}.`)
     }
   }
   return arr[i];
