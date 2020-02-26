@@ -11,5 +11,8 @@ function johnLennonFacts(facts){
   const things = [];
   
   let i = 0;
-  while (i < things.length)
+  while (i < things.length){
+    things.push(`${facts}!!!`);
+  }
+  return things
 }
